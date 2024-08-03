@@ -3,6 +3,7 @@
 ## About the Project
 
 I created this project to transfer Metatrader account information and position data to Streamlit, enabling a live working dashboard. Customize it and use the values you want. To connect Metatrader with Python, I used my previously published method: MQL5-MQL-Python-Socket.
+-After several tests, the socket communication stops if streamlit refresh itself, so more stabile is the MQL5 Python integration: https://www.mql5.com/en/docs/python_metatrader5.
 
 ### Example:
 ![Example](Images/AccInfo.gif)
